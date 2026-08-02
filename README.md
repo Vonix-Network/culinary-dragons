@@ -1,22 +1,26 @@
 # Culinary Dragons
 
-Minecraft 1.18.2 Forge cooking and drinks mod for Guns, Magic and Dragons-style modpacks.
+A polished food-and-drink expansion for Minecraft 1.18.2 Forge modpacks such as Guns, Magic and Dragons.
 
-## New in 0.2.0
+## v0.3.0 visual and station overhaul
 
-- New fruits: strawberries, pineapple, mango, peach, cherries, banana, kiwi, papaya, and dragonfruit
-- New juices: tropical juice and cherry juice
-- New smoothies: tropical, strawberry, and mango smoothies
-- New fermented drinks: cherry wine, tropical wine, peach cider, and dragonfruit wine
-- Real 16x16 pixel-art textures for all Culinary Dragons items and processing stations
-- Textured juicer, blender, fermentation barrel, and cooking pot blocks
+- Replaced the old placeholder cube stations with modeled station silhouettes:
+  - Juicer with hopper/nozzle detail
+  - Blender with base, glass vessel, and lid
+  - Fermentation Barrel with bands and bung detail
+  - Cooking Pot with rim, body, and feet
+- Added directional placement and blockstate rotation for every station.
+- Added proper block loot tables so stations drop themselves when mined.
+- Added dedicated face textures for all station models.
+- Kept all fruit, juice, smoothie, wine, cider, and mead content from v0.2.0.
+- Processing remains server-authoritative and supports the fruit chains already documented below.
 
-## Processing
+## Station workflow
 
-- Juicer: fruit into juice
-- Blender: fruit into smoothies
-- Fermentation Barrel: juice and fruit into wine, cider, and mead
-- Cooking Pot: ingredients into prepared meals
+- **Juicer:** fruit → juice
+- **Blender:** fruit → smoothies
+- **Fermentation Barrel:** juice/fruit → wines, ciders, and mead
+- **Cooking Pot:** raw ingredients → prepared meals
 
 ## Requirements
 
@@ -24,7 +28,7 @@ Minecraft 1.18.2 Forge cooking and drinks mod for Guns, Magic and Dragons-style 
 - Minecraft Forge 40.2.0 or newer in the 40.x line
 - Java 17
 
-Forge-only; no third-party mod is required.
+Forge-only. No third-party mod is required.
 
 ## Build
 

@@ -20,6 +20,7 @@ public final class CulinaryDragonsMod {
     public static final CreativeModeTab TAB = new CreativeModeTab(MOD_ID) {
         @Override public ItemStack makeIcon() { return new ItemStack(WINE_BOTTLE.get()); }
     };
+
     public static final RegistryObject<Block> JUICER = BLOCKS.register("juicer", () -> new CulinaryStationBlock(CulinaryStationBlock.StationKind.JUICER));
     public static final RegistryObject<Block> BLENDER = BLOCKS.register("blender", () -> new CulinaryStationBlock(CulinaryStationBlock.StationKind.BLENDER));
     public static final RegistryObject<Block> FERMENTER = BLOCKS.register("fermenter", () -> new CulinaryStationBlock(CulinaryStationBlock.StationKind.FERMENTER));
@@ -28,7 +29,10 @@ public final class CulinaryDragonsMod {
     public static final RegistryObject<Item> BLENDER_ITEM = ITEMS.register("blender", () -> new BlockItem(BLENDER.get(), new Item.Properties().tab(TAB)));
     public static final RegistryObject<Item> FERMENTER_ITEM = ITEMS.register("fermenter", () -> new BlockItem(FERMENTER.get(), new Item.Properties().tab(TAB)));
     public static final RegistryObject<Item> COOKING_POT_ITEM = ITEMS.register("cooking_pot", () -> new BlockItem(COOKING_POT.get(), new Item.Properties().tab(TAB)));
-    private static Item.Properties edible(int nutrition, float saturation) { return new Item.Properties().tab(TAB).food(new FoodProperties.Builder().nutrition(nutrition).saturationMod(saturation).build()); }
+
+    private static Item.Properties edible(int nutrition, float saturation) {
+        return new Item.Properties().tab(TAB).food(new FoodProperties.Builder().nutrition(nutrition).saturationMod(saturation).build());
+    }
     public static final RegistryObject<Item> GRAPES = ITEMS.register("grapes", () -> new Item(edible(3, .3f)));
     public static final RegistryObject<Item> BERRIES = ITEMS.register("mixed_berries", () -> new Item(edible(4, .4f)));
     public static final RegistryObject<Item> STRAWBERRIES = ITEMS.register("strawberries", () -> new Item(edible(3, .35f)));
@@ -66,5 +70,10 @@ public final class CulinaryDragonsMod {
     public static final RegistryObject<Item> DRAGONFRUIT_CIDER = ITEMS.register("dragonfruit_cider", () -> new Item(edible(5, .5f)));
     public static final RegistryObject<Item> COOKED_MEAT_PLATTER = ITEMS.register("cooked_meat_platter", () -> new Item(edible(14, 1f)));
     public static final RegistryObject<Item> BAKED_POTATO_PLATTER = ITEMS.register("baked_potato_platter", () -> new Item(edible(10, .9f)));
-    public CulinaryDragonsMod() { IEventBus bus = net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus(); BLOCKS.register(bus); ITEMS.register(bus); }
+
+    public CulinaryDragonsMod() {
+        IEventBus bus = net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus();
+        BLOCKS.register(bus);
+        ITEMS.register(bus);
+    }
 }
