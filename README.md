@@ -1,18 +1,22 @@
 # Culinary Dragons
 
-Cooking, drinks, smoothies, wine, and fantasy food for **Minecraft 1.18.2 Forge** modpacks such as Guns, Magic and Dragons.
+Minecraft 1.18.2 Forge cooking and drinks mod for Guns, Magic and Dragons-style modpacks.
 
-## Features
+## New in 0.2.0
 
-- Juicer: grapes, berries, and apples into juice
-- Blender: apple, berry, and melon smoothies
-- Fermentation Barrel: wine, cider, and berry mead
-- Cooking Pot: meat platters, baked potato platters, and vegetable stew
-- Additional drinks: mint tea, hot chocolate, dragonfire punch, and dragonfruit cider
-- Server-authoritative station interactions
-- Crafting recipes, item models, block models, blockstates, and translations
+- New fruits: strawberries, pineapple, mango, peach, cherries, banana, kiwi, papaya, and dragonfruit
+- New juices: tropical juice and cherry juice
+- New smoothies: tropical, strawberry, and mango smoothies
+- New fermented drinks: cherry wine, tropical wine, peach cider, and dragonfruit wine
+- Real 16x16 pixel-art textures for all Culinary Dragons items and processing stations
+- Textured juicer, blender, fermentation barrel, and cooking pot blocks
 
-Stations consume a supported ingredient held in the active hand and return the result to the player inventory. If the inventory is full, the result is safely dropped at the player.
+## Processing
+
+- Juicer: fruit into juice
+- Blender: fruit into smoothies
+- Fermentation Barrel: juice and fruit into wine, cider, and mead
+- Cooking Pot: ingredients into prepared meals
 
 ## Requirements
 
@@ -20,7 +24,7 @@ Stations consume a supported ingredient held in the active hand and return the r
 - Minecraft Forge 40.2.0 or newer in the 40.x line
 - Java 17
 
-This is a Forge-only mod and has no required third-party mod dependency.
+Forge-only; no third-party mod is required.
 
 ## Build
 
@@ -28,12 +32,4 @@ This is a Forge-only mod and has no required third-party mod dependency.
 ./gradlew clean build
 ```
 
-The distributable JAR is written to `build/libs/`.
-
-## Current scope
-
-The processing stations currently perform immediate server-side interaction processing rather than using a timed GUI. A future release can add container menus, progress bars, fluid containers, configurable effects, and aging stages.
-
-## License
-
-MIT. Minecraft and Forge are not owned by this project.
+The JAR is written to `build/libs/`.
