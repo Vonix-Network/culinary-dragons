@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "culinarydragons:grape_juice"
+  },
+  "result": "culinarydragons:wine_bottle",
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="culinarydragons"
+version="0.1.0+1.18.2"
+displayName="Culinary Dragons"
+authors="Vonix.Network"
+description='''Cooking, smoothies, wine, and fantasy drinks for Guns, Magic and Dragons modpacks.'''
+[[dependencies.culinarydragons]]
+modId="forge"
+mandatory=true
+versionRange="[40,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.culinarydragons]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19)"
+ordering="NONE"
+side="BOTH"

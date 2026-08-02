@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "culinarydragons:grapes"
+    },
+    {
+      "item": "culinarydragons:mixed_berries"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "result": {
+    "item": "culinarydragons:fruit_salad"
+  }
+}
