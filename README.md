@@ -9,7 +9,14 @@ A polished food-and-drink expansion for Minecraft 1.18.2 Forge modpacks such as 
 - Disabled ambient occlusion on station models to prevent dark seams and block-edge shading artifacts on stepped geometry.
 - Retained directional placement, rotation, block loot tables, complete station textures, and the v0.3.2 item asset fix.
 
-## Station workflow
+## v0.3.5 Farmer's Delight integration
+
+- Farmer's Delight 1.18.2-1.2.3 is an optional dependency.
+- Juicer accepts `farmersdelight:tomato` and `farmersdelight:onion`.
+- Blender accepts Farmer's Delight tomato, cabbage, and onion.
+- Fermentation Barrel accepts Farmer's Delight melon juice.
+- Compatibility recipes are conditionally loaded only when Farmer's Delight is installed.
+
 
 - Juicer: fruit → juice
 - Blender: fruit → smoothies

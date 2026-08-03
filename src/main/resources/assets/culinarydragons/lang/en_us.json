@@ -40,5 +40,11 @@
   "item.culinarydragons.cherry_wine": "Cherry Wine",
   "item.culinarydragons.tropical_wine": "Tropical Wine",
   "item.culinarydragons.peach_cider": "Peach Cider",
-  "item.culinarydragons.dragonfruit_wine": "Dragonfruit Wine"
+  "item.culinarydragons.dragonfruit_wine": "Dragonfruit Wine",
+  "item.culinarydragons.tomato_juice": "Tomato Juice",
+  "item.culinarydragons.onion_juice": "Onion Juice",
+  "item.culinarydragons.tomato_smoothie": "Tomato Smoothie",
+  "item.culinarydragons.garden_smoothie": "Garden Smoothie",
+  "item.culinarydragons.tomato_wine": "Tomato Wine",
+  "item.culinarydragons.melon_cider": "Melon Cider"
 }

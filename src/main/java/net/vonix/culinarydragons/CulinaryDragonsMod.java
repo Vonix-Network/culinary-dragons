@@ -52,6 +52,10 @@ public final class CulinaryDragonsMod {
     public static final RegistryObject<Item> APPLE_JUICE = ITEMS.register("apple_juice", () -> new Item(edible(4, .4f)));
     public static final RegistryObject<Item> TROPICAL_JUICE = ITEMS.register("tropical_juice", () -> new Item(edible(5, .5f)));
     public static final RegistryObject<Item> CHERRY_JUICE = ITEMS.register("cherry_juice", () -> new Item(edible(4, .4f)));
+    public static final RegistryObject<Item> TOMATO_JUICE = ITEMS.register("tomato_juice", () -> new Item(edible(4, .35f)));
+    public static final RegistryObject<Item> ONION_JUICE = ITEMS.register("onion_juice", () -> new Item(edible(3, .25f)));
+    public static final RegistryObject<Item> TOMATO_SMOOTHIE = ITEMS.register("tomato_smoothie", () -> new Item(edible(6, .55f)));
+    public static final RegistryObject<Item> GARDEN_SMOOTHIE = ITEMS.register("garden_smoothie", () -> new Item(edible(6, .55f)));
     public static final RegistryObject<Item> TROPICAL_SMOOTHIE = ITEMS.register("tropical_smoothie", () -> new Item(edible(7, .8f)));
     public static final RegistryObject<Item> STRAWBERRY_SMOOTHIE = ITEMS.register("strawberry_smoothie", () -> new Item(edible(7, .8f)));
     public static final RegistryObject<Item> MANGO_SMOOTHIE = ITEMS.register("mango_smoothie", () -> new Item(edible(7, .8f)));
@@ -59,6 +63,8 @@ public final class CulinaryDragonsMod {
     public static final RegistryObject<Item> TROPICAL_WINE = ITEMS.register("tropical_wine", () -> new Item(edible(4, .3f)));
     public static final RegistryObject<Item> PEACH_CIDER = ITEMS.register("peach_cider", () -> new Item(edible(5, .5f)));
     public static final RegistryObject<Item> DRAGONFRUIT_WINE = ITEMS.register("dragonfruit_wine", () -> new Item(edible(5, .35f)));
+    public static final RegistryObject<Item> TOMATO_WINE = ITEMS.register("tomato_wine", () -> new Item(edible(4, .3f)));
+    public static final RegistryObject<Item> MELON_CIDER = ITEMS.register("melon_cider", () -> new Item(edible(5, .5f)));
     public static final RegistryObject<Item> WINE_BOTTLE = ITEMS.register("wine_bottle", () -> new Item(edible(3, .2f)));
     public static final RegistryObject<Item> APPLE_CIDER = ITEMS.register("apple_cider", () -> new Item(edible(5, .5f)));
     public static final RegistryObject<Item> BERRY_MEAD = ITEMS.register("berry_mead", () -> new Item(edible(5, .5f)));

@@ -81,6 +81,8 @@ public final class CulinaryStationBlock extends Block {
                 if (s.is(CulinaryDragonsMod.CHERRIES.get())) return out(CulinaryDragonsMod.CHERRY_JUICE);
                 if (s.is(CulinaryDragonsMod.PINEAPPLE.get()) || s.is(CulinaryDragonsMod.MANGO.get()) || s.is(CulinaryDragonsMod.PAPAYA.get())) return out(CulinaryDragonsMod.TROPICAL_JUICE);
                 if (s.is(net.minecraft.world.item.Items.APPLE)) return out(CulinaryDragonsMod.APPLE_JUICE);
+                if (Bridge.farmersDelight(s, "tomato")) return out(CulinaryDragonsMod.TOMATO_JUICE);
+                if (Bridge.farmersDelight(s, "onion")) return out(CulinaryDragonsMod.ONION_JUICE);
                 return ItemStack.EMPTY;
             }
         },
@@ -91,6 +93,9 @@ public final class CulinaryStationBlock extends Block {
                 if (s.is(CulinaryDragonsMod.MANGO.get())) return out(CulinaryDragonsMod.MANGO_SMOOTHIE);
                 if (s.is(CulinaryDragonsMod.PINEAPPLE.get()) || s.is(CulinaryDragonsMod.BANANA.get()) || s.is(CulinaryDragonsMod.PAPAYA.get())) return out(CulinaryDragonsMod.TROPICAL_SMOOTHIE);
                 if (s.is(net.minecraft.world.item.Items.MELON_SLICE)) return out(CulinaryDragonsMod.MELON_SMOOTHIE);
+                if (Bridge.farmersDelight(s, "tomato")) return out(CulinaryDragonsMod.TOMATO_SMOOTHIE);
+                if (Bridge.farmersDelight(s, "cabbage")) return out(CulinaryDragonsMod.GARDEN_SMOOTHIE);
+                if (Bridge.farmersDelight(s, "onion")) return out(CulinaryDragonsMod.GARDEN_SMOOTHIE);
                 return ItemStack.EMPTY;
             }
         },
@@ -103,6 +108,8 @@ public final class CulinaryStationBlock extends Block {
                 if (s.is(CulinaryDragonsMod.BERRY_JUICE.get())) return out(CulinaryDragonsMod.BERRY_MEAD);
                 if (s.is(CulinaryDragonsMod.PEACH.get())) return out(CulinaryDragonsMod.PEACH_CIDER);
                 if (s.is(CulinaryDragonsMod.DRAGONFRUIT.get())) return out(CulinaryDragonsMod.DRAGONFRUIT_WINE);
+                if (s.is(CulinaryDragonsMod.TOMATO_JUICE.get())) return out(CulinaryDragonsMod.TOMATO_WINE);
+                if (Bridge.farmersDelight(s, "melon_juice")) return out(CulinaryDragonsMod.MELON_CIDER);
                 return ItemStack.EMPTY;
             }
         },

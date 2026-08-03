@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "culinarydragons:item/tomato_juice"
+  }
+}

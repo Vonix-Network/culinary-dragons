@@ -3,7 +3,7 @@ loaderVersion="[40,)"
 license="MIT"
 [[mods]]
 modId="culinarydragons"
-version="0.3.3+1.18.2"
+version="0.3.5+1.18.2"
 displayName="Culinary Dragons"
 authors="Vonix.Network"
 description='''Cooking, smoothies, wine, and fantasy drinks for Guns, Magic and Dragons modpacks.'''
@@ -18,4 +18,10 @@ modId="minecraft"
 mandatory=true
 versionRange="[1.18.2,1.19)"
 ordering="NONE"
+side="BOTH"
+[[dependencies.culinarydragons]]
+modId="farmersdelight"
+mandatory=false
+versionRange="[1.18.2-1.2.3,)"
+ordering="AFTER"
 side="BOTH"
