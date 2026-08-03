@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:block/cube",
   "gui_light": "front",
   "textures": {
     "particle": "culinarydragons:block/fermenter_side",
