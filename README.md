@@ -2,25 +2,19 @@
 
 A polished food-and-drink expansion for Minecraft 1.18.2 Forge modpacks such as Guns, Magic and Dragons.
 
-## v0.3.0 visual and station overhaul
+## v0.3.3 machine grounding update
 
-- Replaced the old placeholder cube stations with modeled station silhouettes:
-  - Juicer with hopper/nozzle detail
-  - Blender with base, glass vessel, and lid
-  - Fermentation Barrel with bands and bung detail
-  - Cooking Pot with rim, body, and feet
-- Added directional placement and blockstate rotation for every station.
-- Added proper block loot tables so stations drop themselves when mined.
-- Added dedicated face textures for all station models.
-- Kept all fruit, juice, smoothie, wine, cider, and mead content from v0.2.0.
-- Processing remains server-authoritative and supports the fruit chains already documented below.
+- Added full-footprint base plates to all four machine models so the block below cannot show through the machine footprint.
+- Added bottom-face culling to station geometry.
+- Disabled ambient occlusion on station models to prevent dark seams and block-edge shading artifacts on stepped geometry.
+- Retained directional placement, rotation, block loot tables, complete station textures, and the v0.3.2 item asset fix.
 
 ## Station workflow
 
-- **Juicer:** fruit → juice
-- **Blender:** fruit → smoothies
-- **Fermentation Barrel:** juice/fruit → wines, ciders, and mead
-- **Cooking Pot:** raw ingredients → prepared meals
+- Juicer: fruit → juice
+- Blender: fruit → smoothies
+- Fermentation Barrel: juice/fruit → wines, ciders, and mead
+- Cooking Pot: raw ingredients → prepared meals
 
 ## Requirements
 
