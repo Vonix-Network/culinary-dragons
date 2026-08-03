@@ -9,7 +9,18 @@ A polished food-and-drink expansion for Minecraft 1.18.2 Forge modpacks such as 
 - Disabled ambient occlusion on station models to prevent dark seams and block-edge shading artifacts on stepped geometry.
 - Retained directional placement, rotation, block loot tables, complete station textures, and the v0.3.2 item asset fix.
 
-## v0.3.5 Farmer's Delight integration
+## v0.3.6 unique original item art
+
+- Reworked the complete food-and-drink texture set using original 16x16 pixel art.
+- Public Farmer's Delight and Let's Do Vinery imagery was used only to study readable category conventions; no upstream assets were copied.
+- Fruits now use recognizable silhouettes: apples, bananas, cherries, grape clusters, berries, strawberries, pineapple, kiwi, papaya, dragonfruit, mango, and peach.
+- Juices use tall glass-bottle silhouettes.
+- Smoothies use wide lidded cups with foam and straw/garnish details.
+- Wine uses tall dark bottles with labels and wax/cork closures.
+- Ciders and mead use shorter rounded bottles.
+- Tea and hot chocolate use handled mugs with steam.
+- Fruit salad, stew, punch, and prepared meals use bowls or plated-food silhouettes.
+
 
 - Farmer's Delight 1.18.2-1.2.3 is an optional dependency.
 - Juicer accepts `farmersdelight:tomato` and `farmersdelight:onion`.

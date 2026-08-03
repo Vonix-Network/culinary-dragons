@@ -3,7 +3,7 @@ loaderVersion="[40,)"
 license="MIT"
 [[mods]]
 modId="culinarydragons"
-version="0.3.5+1.18.2"
+version="0.3.6+1.18.2"
 displayName="Culinary Dragons"
 authors="Vonix.Network"
 description='''Cooking, smoothies, wine, and fantasy drinks for Guns, Magic and Dragons modpacks.'''
